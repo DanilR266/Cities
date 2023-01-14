@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0D82502971999C00B4CD4D /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D824F2971999C00B4CD4D /* Json.swift */; };
+		7E0D825B2972CEC200B4CD4D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E0D825A2972CEC200B4CD4D /* data.json */; };
 		7EA55C6C2966DA3900FD9340 /* CitiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA55C6B2966DA3900FD9340 /* CitiesApp.swift */; };
-		7EA55C6E2966DA3900FD9340 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA55C6D2966DA3900FD9340 /* ContentView.swift */; };
+		7EA55C6E2966DA3900FD9340 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA55C6D2966DA3900FD9340 /* MainScreen.swift */; };
 		7EA55C702966DA3B00FD9340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA55C6F2966DA3B00FD9340 /* Assets.xcassets */; };
 		7EA55C732966DA3B00FD9340 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA55C722966DA3B00FD9340 /* Preview Assets.xcassets */; };
+		7EA55C7A2966DA6000FD9340 /* ModelCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA55C792966DA5F00FD9340 /* ModelCities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0D824F2971999C00B4CD4D /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		7E0D825A2972CEC200B4CD4D /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		7EA55C682966DA3900FD9340 /* Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA55C6B2966DA3900FD9340 /* CitiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesApp.swift; sourceTree = "<group>"; };
-		7EA55C6D2966DA3900FD9340 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EA55C6D2966DA3900FD9340 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		7EA55C6F2966DA3B00FD9340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EA55C722966DA3B00FD9340 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EA55C792966DA5F00FD9340 /* ModelCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				7EA55C6B2966DA3900FD9340 /* CitiesApp.swift */,
-				7EA55C6D2966DA3900FD9340 /* ContentView.swift */,
+				7EA55C6D2966DA3900FD9340 /* MainScreen.swift */,
 				7EA55C6F2966DA3B00FD9340 /* Assets.xcassets */,
 				7EA55C712966DA3B00FD9340 /* Preview Content */,
+				7EA55C792966DA5F00FD9340 /* ModelCities.swift */,
+				7E0D824F2971999C00B4CD4D /* Json.swift */,
+				7E0D825A2972CEC200B4CD4D /* data.json */,
 			);
 			path = Cities;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				7EA55C732966DA3B00FD9340 /* Preview Assets.xcassets in Resources */,
 				7EA55C702966DA3B00FD9340 /* Assets.xcassets in Resources */,
+				7E0D825B2972CEC200B4CD4D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA55C6E2966DA3900FD9340 /* ContentView.swift in Sources */,
+				7EA55C7A2966DA6000FD9340 /* ModelCities.swift in Sources */,
+				7EA55C6E2966DA3900FD9340 /* MainScreen.swift in Sources */,
 				7EA55C6C2966DA3900FD9340 /* CitiesApp.swift in Sources */,
+				7E0D82502971999C00B4CD4D /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
